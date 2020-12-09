@@ -1,0 +1,8 @@
+<?php
+/**
+ * App config
+ */
+define('APP_NAME', 'Website');
+define('APP_LANG', 'pt-br');
+define('APP_CHARSET', 'utf-8');
+define('APP_URL', 'http://localhost');
