@@ -4,7 +4,7 @@
 <!-- Assets -->
 <link rel="stylesheet" href="<?php echo APP_URL ?>/assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="<?php echo APP_URL ?>/assets/css/font-awesome.min.css">
-<link rel="stylesheet" href="<?php echo APP_URL ?>/assets/css/main.css">
+<link rel="stylesheet" href="<?php echo APP_URL ?>/assets/css/main.min.css">
 <!-- SEO informations -->
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
@@ -21,7 +21,7 @@
 <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
 <meta name="application-name" content="<?php echo APP_NAME ?>"/>
 <meta name="theme-color" content="<?php echo APP_THEME_COLOR ?>">
-<meta name="msapplication-TileColor" content="#FFFFFF" />
+<link rel="manifest" href="/manifest.webmanifest">
 <meta name="msapplication-TileImage" content="mstile-144x144.png" />
 <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
 <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
